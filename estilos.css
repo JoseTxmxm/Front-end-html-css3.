@@ -1,0 +1,87 @@
+* {
+    background-color: brown;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#input {
+    text-align: left;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 2%;
+    padding: auto;
+    justify-content: center;
+    border-radius: 15%;
+    width: 400px;
+    height: 50px;
+}
+
+.button-buscar {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 1%;
+    padding: auto;
+    background-color: gold;
+    justify-content: center;
+}
+
+.button-apartar {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 1%;
+    padding: auto;
+    background-color: blueviolet;
+}
+
+.button-category {
+    color: black;
+    padding: auto;
+    font-size: large;
+    text-align: center;
+    margin: 1%;
+    background-color: burlywood;
+    border-radius: 7px;
+}
+
+.nav {
+    text-align: right;
+    margin-bottom:2%;
+    margin-top: 2%;
+}
+
+.div-gatos {
+    background-image: image('/media/');
+    text-align: center;
+    margin-top: 3%;
+    width: 1700px;
+    height: 400px;
+}
+}
+
+.div-peces {
+    background-image: image('/media/');
+    text-align: center;
+    margin-top: 3%;
+    width: 1700px;
+    height: 400px;
+}
+}
+
+.div-perros {
+    background-image: image('/media/');
+    text-align: center;
+    margin-top: 3%;
+    width: 1700px;
+    height: px;
+}
+}
+
+.div-home {
+    text-align: center;
+    margin-top: 5%;
+    background-image: url('media/logotipo.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
