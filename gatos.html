@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-    <link rel="stylesheet" href="estilos.css">
-    <head>
-        <meta charset="utf-8">
-        <title>Gatos</title>
-    </head>
-    <nav class="nav">
-        <a id="#" type="submit" href="/home.html"><button class="button-category">Mascotas</button></a>
-        <a id="#" type="submit" href="/perros.html"><button class="button-category">Perros</button></a>
-        <a id="#" type="submit" href="/peces.html"><button class="button-category">Peces</button></a>
-    </nav>
-    <form style="text-align: center;">
-        <input id="input" type="search" name="q" placeholder="Busccar..."> 
+<link rel="stylesheet" href="estilos.css">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gatos</title>
+</head>
+<h1 class="h1">Elige un tierno gatito</h1>
+<h2 class="h2">Necesitas accesorios para tus mascotas elige en la lista de búsqueda o escribe directamente lo que
+    necesitas.
+</h2>
+<form action="https://www.google.com/search" method="get" style="text-align: center">
+    <input class="input" list="searches" name="q" placeholder="Elija algo en la lista">
+    <datalist id="searches">
+        <option value="Alimentos para: ">
+        <option value="Accesorios para: ">
+        <option value="Más mascotas">
+    </datalist>
+    <li>
         <button type="submit" class="button-buscar">Buscar</button>
-    </form>
+    </li>
+</form>
+<h2 class="h2">Buscar más mascotas</h2>
+<nav class="nav">
+    <a id="#" type="submit" href="/home.html"><button class="button-category">Mascotas</button></a>
+    <a id="#" type="submit" href="/perros.html"><button class="button-category">Perros</button></a>
+    <a id="#" type="submit" href="/peces.html"><button class="button-category">Peces</button></a>
+</nav>
+<h2>Encuentra un tierno gatito y apártalo ahora!!!</h2>
+<p class="p">Encuentra un gato en nuestro catálogo y apártalo en línea.<br>Recógelo en sucursales físicas</p>
+<hr>
+<image src="media/logotipo.jpg" class="image-perros">
+
     <hr>
+    <footer class="footer">
+        <h3>www.tu_tienda_de_mascotas.com</h3>
+    </footer>
+
 </html>

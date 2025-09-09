@@ -3,16 +3,30 @@
     font-family: Arial, Verdana, sans-serif;
 }
 
-#input {
-    text-align: left;
+.input {
+    text-align: center;
     color: blanchedalmond;
     font-size: 20px;
-    margin-top: 2%;
-    padding: auto;
+    margin-top: 1%;
     justify-content: center;
-    border-radius: 15%;
+    border-radius: 25px;
     width: 400px;
     height: 50px;
+    border-width: 5px;
+    border-color: yellowgreen;
+}
+
+.input:focus {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 1%;
+    justify-content: center;
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+    border-width: 5px;
+    border-color: blue;
 }
 
 .button-buscar {
@@ -23,6 +37,23 @@
     padding: auto;
     background-color: gold;
     justify-content: center;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: yellowgreen;
+}
+
+.button-buscar:hover {
+     color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 1%;
+    padding: auto;
+    background-color: blue;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: yellowgreen;
+    cursor: pointer;
 }
 
 .button-apartar {
@@ -41,11 +72,26 @@
     text-align: center;
     margin: 1%;
     background-color: burlywood;
-    border-radius: 7px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: yellowgreen;
+}
+
+.button-category:hover {
+    color: white;
+    padding: auto;
+    font-size: large;
+    text-align: center;
+    margin: 1%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: yellowgreen;
+    cursor: pointer;
 }
 
 .nav {
-    text-align: right;
+    text-align: center;
     margin-bottom:2%;
     margin-top: 2%;
 }
@@ -57,31 +103,67 @@
     width: 1700px;
     height: 400px;
 }
-}
 
-.div-peces {
-    background-image: image('/media/');
-    text-align: center;
-    margin-top: 3%;
-    width: 1700px;
-    height: 400px;
-}
-}
 
-.div-perros {
-    background-image: image('/media/');
-    text-align: center;
-    margin-top: 3%;
-    width: 1700px;
-    height: px;
-}
-}
-
-.div-home {
-    text-align: center;
-    margin-top: 5%;
-    background-image: url('media/logotipo.avif');
+.image-peces {
+    background-image: url('media/logotipo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
+    width: 1180px;
+    margin-top: 5%;
     background-position: center;
+}
+
+.image-perros {
+    background-image: url('media/logotipo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1180px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-position: center;
+}
+
+.image-home {
+    background-image: url('media/logotipo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1180px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 3%;
+    color: yellow;
+    text-align: center;
+}
+
+
+h2 {
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+.p {
+    margin-top: 3%;
+    color: aqua;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 3%;
+    color: yellow;
+    text-align: center;
 }
