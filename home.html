@@ -4,46 +4,55 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, initial-scale=11.0" />
-    <title>Mascotas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=11.0" />
+    <title>Todas las Mascotas</title>
 </head>
-
-<h1>Tu Tienda de Mascotas</h1>
-<h2 class="h2">
-    Necesitas accesorios para tus mascotas elige en la lista de búsqueda o
-    escribe directamente lo que necesitas.
-</h2>
-
-<form action="https://www.google.com/search" method="get" style="text-align: center">
-    <input class="input" list="searches" name="q" placeholder="Elija algo en la lista" />
-    <datalist id="searches">
-        <option value="Alimentos para: "></option>
-        <option value="Accesorios para: "></option>
-        <option value="Más mascotas"></option>
-    </datalist>
-
-    <li>
-        <button type="submit" class="button-buscar">Buscar</button>
-    </li>
-</form>
-
-<div>
-    <h2>¿Te gustan las mascotas?</h2>
+<header>
+    <h1>Tu Tienda de Mascotas</h1>
     <nav class="nav">
         <a id="#" type="submit" href="/perros.html"><button class="button-category">Perros</button></a>
         <a id="#" type="submit" href="/gatos.html"><button class="button-category">Gatos</button></a>
         <a id="#" type="submit" href="/peces.html"><button class="button-category">Peces</button></a>
     </nav>
-    <p class="p">
-        Navega a través del sitio en busca de tu próxima mascota.<br />
-        Existe una gran variedad en las que puedes adoptar o comprar a precios
-        accesibles.
-    </p>
-</div>
-<hr />
+</header>
 
-<image src="media/logotipo.jpg" class="image-home" />
+<body>
+    <hr>
+    <figure>
+        <image src="media/logotipo.jpg" class="image-home" />
+    </figure>
+    <hr>
+    <h2 class="h2">
+        Necesitas accesorios para tus mascotas? Elige en la lista de búsqueda o
+        escribe directamente lo que necesitas.
+    </h2>
+    <form action="https://www.google.com/search" method="get" style="text-align: center">
+        <input class="input" list="searches" name="q" placeholder="Elija algo en la lista" />
+        <datalist id="searches">
+            <option value="Alimentos para: "></option>
+            <option value="Accesorios para: "></option>
+            <option value="Más mascotas"></option>
+        </datalist>
 
+        <li>
+            <button type="submit" class="button-buscar">Buscar</button>
+        </li>
+    </form>
+    <hr>
+    <div>
+        <h2>¿Te gustan las mascotas?</h2>
+        <nav class="nav">
+            <a id="#" type="submit" href="/perros.html"><button class="button-category">Perros</button></a>
+            <a id="#" type="submit" href="/gatos.html"><button class="button-category">Gatos</button></a>
+            <a id="#" type="submit" href="/peces.html"><button class="button-category">Peces</button></a>
+        </nav>
+        <p class="p">
+            Navega a través del sitio en busca de tu próxima mascota.<br />
+            Existe una gran variedad en las que puedes adoptar o comprar a precios
+            accesibles.
+        </p>
+    </div>
+</body>
 <hr />
 
 <footer class="footer">
