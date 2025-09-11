@@ -1,11 +1,12 @@
-* {
+/*{
     background-color: brown;
     font-family: Arial, Verdana, sans-serif;
-}
+}*/
 
 .input {
     text-align: center;
-    color: blanchedalmond;
+    background-color: cadetblue;
+    color: black;
     font-size: 20px;
     margin-top: 1%;
     justify-content: center;
@@ -30,12 +31,14 @@
 }
 
 .button-buscar {
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     margin: 1%;
     padding: auto;
-    background-color: gold;
+    height: 50px;
+    width: 100px;
+    background-color: rebeccapurple;
     justify-content: center;
     border-radius: 10px;
     border-width: 5px;
@@ -66,13 +69,15 @@
 }
 
 .button-category {
-    color: black;
+    color: white;
     padding: auto;
+    height: 100px;
+    width: 200px;
+    margin: 2%;
     font-size: large;
-    text-align: center;
-    margin: 1%;
-    background-color: burlywood;
-    border-radius: 10px;
+    text-align: top center;
+    background-color: rebeccapurple;
+    border-radius: 25px;
     border-width: 5px;
     border-color: yellowgreen;
 }
@@ -84,7 +89,7 @@
     text-align: center;
     margin: 1%;
     background-color: blueviolet;
-    border-radius: 10px;
+    border-radius: 25px;
     border-width: 5px;
     border-color: yellowgreen;
     cursor: pointer;
@@ -110,6 +115,7 @@
     width: 1100px;
     margin-top: 5%;
     background-position: center;
+    border-radius: 25px;
 }
 
 
@@ -121,6 +127,7 @@
     width: 1100px;
     margin-top: 5%;
     background-position: center;
+    border-radius: 25px;
 }
 
 .image-perros {
@@ -132,6 +139,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     background-position: center;
+    border-radius: 25px;
 }
 
 .image-home {
@@ -143,35 +151,69 @@
     margin-top: 5%;
     margin-bottom: 5%;
     background-position: center;
+    border-radius: 25px;
 }
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
+    margin-top: 5%;
+    font-size: 35px;
 }
 
 .h2 {
     margin-top: 3%;
-    color: yellow;
+    color: blue;
     text-align: center;
+    font-size: 25px;
 }
 
 
 h2 {
     margin-top: 3%;
-    color: white;
+    color: black;
     text-align: center;
+    font-size: 25px;
 }
 
 .p {
     margin-top: 3%;
-    color: aqua;
-    font-size: 18px;
+    color: blue;
+    font-size: 20px;
     text-align: center;
 }
 
 .footer {
     margin-top: 3%;
-    color: yellow;
+    color: black;
     text-align: center;
+}
+
+#img {
+    height: 200px;
+    width: 350px;
+    margin: 2%;
+    border-radius: 25px;
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+.image-header {
+  /* Le dices que tenga al menos un 100% del alto de la ventana */
+  min-height: 100vh; 
+  /* "vh" significa "viewport height", es decir, el alto de la ventana de visualización */
+  background-image: url('media/paisaje.jpg');
+  background-size: cover;
+  background-position: center; /* Centra la imagen para que se vea mejor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.image-body {
+    /* Le dices que tenga al menos un 100% del alto de la ventana */
+  min-height: 100vh; 
+  /* "vh" significa "viewport height", es decir, el alto de la ventana de visualización */
+  background-image: url('media/paisaje.jpg');
+  background-size: cover;
+  background-position: center; /* Centra la imagen para que se vea mejor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
