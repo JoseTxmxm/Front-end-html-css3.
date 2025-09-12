@@ -155,7 +155,9 @@
 }
 
 h1 {
-    color: black;
+    width: 0 50%;
+    background-color: blue;
+    color: white;
     text-align: center;
     margin-top: 5%;
     font-size: 35px;
@@ -184,6 +186,8 @@ h2 {
 }
 
 .footer {
+    width: 0 50%;
+    background-color: burlywood;
     margin-top: 3%;
     color: black;
     text-align: center;
@@ -195,7 +199,7 @@ h2 {
     margin: 2%;
     border-radius: 25px;
     border-color: blueviolet;
-    border-width: 5px;
+    position: inline-block;
 }
 
 .image-header {
